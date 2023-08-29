@@ -113,7 +113,7 @@ def algorithm(draw, grid, start, end):
 
 		if current == end:
 			construct_path(came_from, end, draw)
-            start.make_start()
+			start.make_start()
 			end.make_end()
 			return True
 
@@ -233,3 +233,4 @@ def main(win, width):
 	pygame.quit()
 
 main(WIN, WIDTH)
+

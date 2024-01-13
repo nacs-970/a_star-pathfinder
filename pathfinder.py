@@ -130,7 +130,7 @@ def algorithm(draw, grid, start, end):
 					open_set_hash.add(neighbor)
 					neighbor.make_open()
 
-		draw()
+		draw() #comment to not display process
 
 		if current != start:
 			current.make_closed()
